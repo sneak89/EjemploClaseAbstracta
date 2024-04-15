@@ -26,6 +26,8 @@ namespace EjemploClaseAbstracta
 
         class Torton : Vehiculo
         {
+            //Override nos permite rescribir en los metodos abstractos, igual
+            // funciona para el método virtual
             public override double CantidadCombustible()
             {
                 return 200; 
